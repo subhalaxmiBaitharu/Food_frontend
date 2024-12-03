@@ -1,0 +1,143 @@
+.loginContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.loginLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-inline: 9rem;
+}
+
+.loginBottom {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.loginLeft span {
+    color: #FC8A06;
+    cursor: pointer;
+}
+
+.loginLeft button {
+    background: #FC8A06;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: 2px solid #FC8A06;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+header img {
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+.welcome {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.order {
+    margin-bottom: 1rem;
+    margin-inline: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+}
+
+.loginRight {
+    width: 40%;
+}
+
+.loginRight img {
+    width: 100%;
+    padding: 2rem 3rem 2rem 0rem;
+    height: 99vh;
+}
+
+@media screen and (max-width: 768px) {
+    .loginContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .loginLeft {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+
+    header img {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .welcome {
+        width: 70%;
+    }
+
+    form input {
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
+    }
+
+    form button {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+
+    .loginRight {
+        display: none;
+    }
+
+    .loginBottom {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .loginLeft {
+        padding: 1rem;
+    }
+
+    header img {
+        width: 70%;
+    }
+
+    form input {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    form button {
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+
+    .loginRight {
+        display: none;
+    }
+}

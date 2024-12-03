@@ -1,0 +1,915 @@
+.homeContainer {
+    margin-inline: 5rem;
+}
+
+.all {
+    margin-top: 1rem;
+}
+
+.inputData p {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    background: #FBFBFB;
+    border-radius: 10px;
+    height: 30rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.banner .ban {
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 27%;
+    z-index: 10;
+}
+
+.banner .design {
+    width: 35%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.banner .designGirl {
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 55%;
+    z-index: 5;
+}
+
+.bannerLeft {
+    width: 30%;
+    margin-left: 3rem;
+}
+
+.bannerLeft p {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.bannerLeft h1 {
+    font-size: 2.4rem;
+}
+
+.bannerLeft span {
+    color: #FC8A06;
+}
+
+.banner input {
+    width: 100%;
+}
+
+.banner input {
+    border: none;
+    padding-left: 1rem;
+    border-radius: 20px;
+}
+
+.banner button {
+    color: #fff;
+    background: #FC8A06;
+    border-radius: 20px;
+    padding: 0.8rem 2.3rem;
+    border: none;
+}
+
+.banner .arrow {
+    color: #fff;
+    background: #FC8A06;
+    border-radius: 50%;
+    padding: 0.5rem 0.5rem;
+    border: none;
+}
+
+.banner .all {
+    border-radius: 20px;
+    width: 90%;
+}
+
+.inputData input:focus {
+    outline: none;
+    border: none;
+}
+
+.middlebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.middlebar p {
+    font-weight: bolder;
+    width: 80%;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+}
+
+.middleFoodContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.middleFoodContainer .foodContainer {
+    width: 32%;
+}
+
+.backgroundContainer {
+    position: relative;
+    width: 100%;
+    height: 17rem;
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        url('../../images/Food1.png') center/cover no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+.backgroundContainer1 {
+    position: relative;
+    width: 100%;
+    height: 17rem;
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        url('../../images/Food2.png') center/cover no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.backgroundText {
+    position: absolute;
+    bottom: 2rem;
+    left: 2.5rem;
+    font-weight: bold;
+}
+
+.backgroundText p {
+    color: #FC8A06;
+}
+
+.blackBox {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    background: #000;
+    width: 4rem;
+    height: 3rem;
+    align-content: center;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.dealContainer {
+    margin-block: 2rem;
+}
+
+.dealContainer>p {
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+}
+
+.insideDealContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.insideDealContainer p {
+    color: #FC8A06;
+}
+
+.insideDealContainer .dealImageContainer {
+    background: #F5F5F5;
+    width: 13rem;
+    border-radius: 10px;
+}
+
+.dealImageContainer h3 {
+    margin-left: 1rem;
+}
+
+.dealContainer img {
+    width: 100%;
+}
+
+.dealImageContainer p {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.popularContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popularRestaurant p {
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+}
+
+.popularContainer img {
+    width: 13.2rem;
+    cursor: pointer;
+}
+
+.order img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.wallpapers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 2rem;
+}
+
+.wallpapers img {
+    width: 49%;
+}
+
+.questionBar {
+    display: flex;
+    flex-direction: column;
+    background: #D9D9D9;
+    padding: 2rem 5rem 4rem 5rem;
+    border-radius: 10px;
+}
+
+.questionNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questionNavbar>p {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    width: 60%;
+}
+
+.questionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.questionBank {
+    width: 80%;
+    align-content: center;
+    text-align: center;
+    margin-inline: 4rem;
+}
+
+.questionBank p {
+    width: 100%;
+    font-weight: 600;
+    margin-block: 1.3rem;
+    font-size: 1.2rem;
+}
+
+.questionContainer span {
+    background: #FC8A06;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+}
+
+.questionContainer header {
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.questionContainer {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 2rem;
+}
+
+.backgroundTextMobile {
+    display: none;
+}
+
+.rightContainer p {
+    font-size: 1rem;
+}
+
+.rightQuestionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.photoQuestionContainer {
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 12rem;
+    border-radius: 10px;
+    height: 13rem;
+    margin-left: 2rem;
+    margin-block: 2rem;
+    padding: 1rem;
+
+}
+
+.photoQuestionContainer img {
+    width: 60%;
+}
+
+.photoQuestionContainer p {
+    font-size: 0.8rem;
+}
+
+.rightContainer>p {
+    width: 75%;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+
+}
+
+.score {
+    background: #FC8A06;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    margin-block: 2rem;
+    border-radius: 10px;
+    padding-block: 1rem;
+}
+
+.score h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.score p {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+
+.scoreLine {
+    background: #fff;
+    width: 1px;
+    height: 40px;
+    margin-right: 0.5rem;
+    margin-left: 2rem;
+
+}
+
+.scoreBar {
+    align-content: center;
+    text-align: center;
+}
+
+.cart {
+    width: 35%;
+    margin-left: 4rem;
+}
+
+.cartClick {
+    background: #FC8A06;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.cartClick p {
+    color: #fff;
+}
+
+.cartClick button {
+    background: #fff;
+    border-radius: 20px;
+    color: #FC8A06;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.cart p {
+    width: 35%;
+    margin-inline: 1rem;
+    font-weight: bolder;
+}
+
+.cart img {
+    width: 2.5rem;
+}
+
+.cartList {
+    max-height: 20rem;
+    overflow-y: scroll;
+}
+
+.cartBottomContent {
+    background: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    border-bottom: 2px solid #F6F6F6;
+}
+
+.cartBottomContent div {
+    width: 60%;
+    font-size: 0.9rem;
+    margin-block: 1rem;
+}
+
+.cartBottomContent img {
+    margin-right: 0.5rem;
+}
+
+.cartBottomContent span {
+    color: #028643;
+}
+
+.cartBottomContent .times {
+    border-radius: 50%;
+    background: #FC8A06;
+    padding: 0.2rem;
+    width: 2rem;
+    color: #fff;
+    text-align: center;
+    align-content: center;
+    height: 2rem;
+}
+
+.cartNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #028643;
+    border-radius: 10px 10px 0 0;
+    padding: 1rem 1rem;
+    color: #fff;
+}
+
+.amount {
+    border-bottom: 2px solid #F6F6F6;
+}
+
+.amount .pay {
+    background: #FC8A06;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1rem;
+    font-size: 1.2rem;
+    margin-inline: 1rem;
+}
+.cartBottomContent h5{
+    font-weight: 500;
+}
+.pay p {
+    width: 60%;
+}
+
+.pay span {
+    font-weight: bolder;
+    width: 30%;
+}
+
+
+.amount .option {
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-inline: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.price {
+    padding: 0.5rem;
+    border-bottom: 2px solid #F6F6F6;
+}
+
+.price div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.price span {
+    font-weight: bolder;
+    margin-right: 1rem;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContainerBlur {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.selectedMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F6F6F6;
+    background: #EEEEEE;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.selectMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line {
+    width: 2px;
+    height: 7rem;
+    margin-inline: 0.5rem;
+    background: #F6F6F6;
+}
+
+.checkout {
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-inline: 1rem;
+    cursor: pointer;
+}
+
+.checkout img {
+    width: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 3rem;
+}
+
+.insideContainer {
+    width: 100%;
+}
+
+.mobileContent {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .cart {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .middlebar {
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    .middlebar p {
+        font-size: 0.9rem;
+        margin-left: 1rem;
+        margin-top: 0;
+    }
+
+    .mobileContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 2px solid #000;
+        font-size: 0.6rem;
+        width: 50%;
+        padding: 0.5rem 1rem;
+    }
+
+    .mobileContent img {
+        margin-right: 0.5rem;
+    }
+
+    .homeContainer {
+        margin-inline: 1rem;
+
+    }
+
+    .middleFoodContainer {
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        margin-left: 1rem;
+    }
+
+    .insideContainer {
+        width: 100%;
+    }
+
+    .backgroundText {
+        font-size: 0.8rem;
+    }
+
+    .backgroundContainer {
+        width: 300px;
+        height: 11rem;
+        margin-inline: 1rem;
+    }
+
+    .backgroundContainer1 {
+        position: relative;
+        width: 300px;
+        height: 11rem;
+    }
+
+    .dealContainer {
+        background: #D9D9D980;
+        padding-bottom: 1rem;
+    }
+
+    .dealContainer>p {
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+
+    .dealContainer p {
+        font-size: 0.9rem;
+    }
+
+    .insideDealContainer .dealImageContainer {
+        background: #000;
+        width: 11rem;
+        margin-bottom: 1rem;
+    }
+
+    .dealImageContainer h3 {
+        font-size: 0.9rem;
+        color: #FC8A06;
+    }
+
+    .dealImageContainer p {
+        color: #fff;
+    }
+
+    .insideDealContainer {
+        width: 95%;
+        padding-left: 1rem;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .dealContainer img {
+        width: 100%;
+    }
+
+    .questionNavbar p {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .questionContainer {
+        flex-direction: column;
+    }
+
+    .questionBar {
+        padding-inline: 1rem;
+        background: #fff;
+        text-align: center;
+        padding-block: 0rem;
+    }
+
+    .questionBank {
+        width: 100%;
+        padding-inline: 1rem;
+        text-align: center;
+    }
+
+    .questionBank p {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .rightContainer {
+        background: #000;
+        border-radius: 10px;
+    }
+
+    .rightContainer>p {
+        color: #fff;
+    }
+
+    .rightQuestionContainer {
+        flex-direction: column;
+    }
+
+    .score {
+        flex-direction: column;
+        padding-block: 2rem;
+        margin-inline: 1rem;
+    }
+
+    .scoreLine {
+        height: 1px;
+        width: 12rem;
+        margin-block: 1.5rem;
+    }
+
+    .photoQuestionContainer {
+        height: 16rem;
+        width: 14rem;
+    }
+
+    .popularContainer {
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+
+    }
+
+    .popularContainer img {
+        margin-inline: 1rem;
+        width: 40%;
+    }
+
+    .popularRestaurant p {
+        margin-left: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .wallpapers {
+        flex-direction: column;
+        width: 100%;
+        margin-block: 2rem;
+    }
+
+    .wallpapers img {
+        width: 90%;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .insideDealContainer .dealImageContainer {
+        width: 10rem;
+    }
+
+    .banner {
+        background: #000;
+        color: #fff;
+        height: 21rem;
+    }
+
+    .banner h1 {
+        font-size: 2.1rem;
+        margin-top: 1rem;
+        margin-left: 2.5rem;
+    }
+
+    .bannerLeft {
+        width: 100%;
+        margin-left: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .bannerLeft span {
+        margin-left: 2rem;
+    }
+
+    .bannerLeft .inputData {
+        margin-left: 2rem;
+    }
+
+    .banner input {
+        border-radius: 5rem;
+    }
+
+    .banner .design {
+        display: none;
+    }
+
+    .banner .designGirl {
+        display: none;
+    }
+
+    .banner .ban {
+        display: none;
+    }
+
+    .banner .all {
+        background: #fff;
+        border-radius: 5rem;
+    }
+
+    .all img {
+        margin-left: 1rem;
+    }
+
+    .dealImageContainer h3 {
+        font-size: 0.8rem;
+    }
+
+    .dealImageContainer p {
+        font-size: 0.8rem;
+    }
+
+    .photoQuestionContainer {
+        height: 15rem;
+        width: 12rem;
+    }
+
+    .cart {
+        position: absolute;
+        top: 10%;
+        background: #fff;
+        z-index: 200;
+        border-radius: 10px;
+        padding-bottom: 1rem;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .amount .pay {
+        font-size: 0.9rem;
+    }
+
+    .backgroundText {
+        display: none;
+    }
+
+    .backgroundTextMobile p {
+        color: #FC8A06;
+    }
+
+    .middleFoodContainer .foodContainer {
+        width: 62%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .backgroundContainer {
+        width: 10rem;
+    }
+
+    .backgroundContainer1 {
+        width: 10rem;
+    }
+
+    .backgroundTextMobile {
+        display: block;
+        font-size: 0.9rem;
+        width: 80%;
+        margin-top: 1rem;
+    }
+}

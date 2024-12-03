@@ -1,0 +1,394 @@
+.profileContainer h2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.profileContainer {
+  margin-inline: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.back {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.profileDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.profileHeader h2 {
+  margin-top: 2rem;
+}
+
+
+.profileAvatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+h2 {
+  margin: 0;
+}
+
+.editButtonMobile {
+  display: none;
+}
+
+.profileDetails {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #000;
+}
+
+.detailField {
+  margin-bottom: 1rem;
+  width: 100%;
+
+}
+
+.detailFieldS {
+  margin-bottom: 1rem;
+  width: 100%;
+  margin-left: 2rem;
+}
+
+.detailField label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.detailField input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.detailField input:disabled {
+  background-color: #eee;
+}
+
+.detailFieldS label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.detailFieldS input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.detailFieldS input:disabled {
+  background-color: #eee;
+}
+
+.editButton {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #FC8A06;
+  color: #fff;
+  cursor: pointer;
+}
+
+.editButton:hover {
+  background-color: #FC8A06;
+}
+
+.paymentMethods {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.paymentMethods .card {
+  background: #f2e9de;
+  border-radius: 50%;
+  padding: 0.3rem;
+  margin-right: 1rem;
+}
+
+.paymentCardInside {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.paymentMethods .edit {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.paymentCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.addPaymentCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 5rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.paymentCard p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.paymentCard small {
+  color: #888;
+}
+
+.editIcon {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 10px;
+  width: 600px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  animation: popup 0.3s ease;
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.modalHeader {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.modalBody label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+  width: 22%;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background: #ff9900;
+  width: 100%;
+  height: 4rem;
+  padding: 0 1rem;
+}
+
+.modalContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 1rem;
+}
+
+.removeButton {
+  background-color: #804000;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.saveButton {
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background-color: #663300;
+}
+
+.cancelButton:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width:480px) {
+  .profileHeader img {
+    display: none;
+  }
+
+  .profileHeader h2 {
+    display: none;
+  }
+
+  .editButtonMobile {
+    display: flex;
+    padding: 0.3rem 1.5rem;
+    border: none;
+    height: 2rem;
+    border-radius: 4px;
+    background-color: #FC8A06;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .editButton {
+    display: none;
+  }
+
+  .paymentMethods {
+    flex-direction: column;
+  }
+
+  .profileContainer {
+    margin-inline: 1rem;
+  }
+
+  .profileDiv {
+    flex-direction: column;
+  }
+
+  .detailFieldS {
+    margin-left: 0;
+  }
+
+  .paymentCard {
+    width: 100%;
+  }
+
+  .addPaymentCard {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .paymentMethods {
+    align-items: flex-start;
+  }
+
+  .back {
+    color: #fff;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FC8A06;
+  }
+
+  .cancelButton {
+    display: none;
+  }
+
+  .modalFooter {
+    margin-top: 20px;
+    background: #fff;
+    padding: 0 1rem;
+  }
+
+  .removeButton {
+    padding-inline: 4rem;
+  }
+
+  .saveButton {
+    background: #ff9900;
+    color: #fff;
+    padding-inline: 2rem;
+  }
+
+  .modal {
+    margin-inline: 1rem;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .removeButton {
+    padding-inline: 3.2rem;
+  }
+
+  .saveButton {
+    background: #ff9900;
+    color: #fff;
+    padding-inline: 1rem;
+  }
+}

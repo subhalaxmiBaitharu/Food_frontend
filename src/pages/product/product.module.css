@@ -1,0 +1,783 @@
+.banner {
+    background: url('../../images/background.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    border-radius: 10px;
+    height: 30rem;
+    position: relative;
+    margin-inline: 5rem;
+}
+
+.productContainerBlur {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.bannerInfo {
+    display: flex;
+    color: #fff;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.bannerInfo p {
+    margin-right: 1rem;
+}
+
+.bannerLeft {
+    margin-left: 3rem;
+
+}
+
+.bannerClock {
+    color: #fff;
+    background: #FC8A06;
+    padding: 0.5rem 1rem;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    bottom: -1.5rem;
+    width: 20%;
+}
+
+.bannerClock p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerLeft h1 {
+    font-size: 3rem;
+}
+
+.bannerInfo p {
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.bannerRight {
+    position: relative;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 8rem 2rem 8rem;
+}
+
+.searchBar p {
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 40px;
+    width: 20%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.search input {
+    border: none;
+    width: 100%;
+}
+
+.search input:focus {
+    outline: none;
+    border: none;
+}
+
+
+.burger {
+    position: absolute;
+    top: -10rem;
+    right: 2rem;
+}
+
+.rating {
+    position: absolute;
+    right: 33rem;
+    bottom: -14rem;
+}
+
+.cart {
+    width: 85%;
+    margin-left: 4rem;
+}
+
+.cartClick {
+    background: #FC8A06;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.cartClick p {
+    color: #fff;
+}
+
+.cartClick button {
+    background: #fff;
+    border-radius: 20px;
+    color: #FC8A06;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.cart p {
+    width: 35%;
+    margin-inline: 1rem;
+    font-weight: bolder;
+}
+
+.cart img {
+    width: 2.5rem;
+}
+
+.cartList {
+    max-height: 20rem;
+    overflow-y: scroll;
+}
+
+.cartBottomContent {
+    background: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    border-bottom: 2px solid #F6F6F6;
+}
+
+.cartBottomContent div {
+    width: 60%;
+    font-size: 0.9rem;
+    margin-block: 1rem;
+}
+
+.cartBottomContent img {
+    margin-right: 0.5rem;
+}
+
+.cartBottomContent span {
+    color: #028643;
+}
+.cartBottomContent h5{
+    font-weight: 500;
+}
+.cartBottomContent .times {
+    border-radius: 50%;
+    background: #FC8A06;
+    padding: 0.2rem;
+    width: 2rem;
+    color: #fff;
+    text-align: center;
+    align-content: center;
+    height: 2rem;
+}
+
+.cartNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #028643;
+    border-radius: 10px 10px 0 0;
+    padding: 1rem 1rem;
+    color: #fff;
+}
+
+.amount {
+    border-bottom: 2px solid #F6F6F6;
+}
+
+.amount .pay {
+    background: #FC8A06;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1rem;
+    font-size: 1.1rem;
+    margin-inline: 1rem;
+}
+
+.pay p {
+    width: 60%;
+}
+
+.pay span {
+    font-weight: bolder;
+    width: 30%;
+}
+
+.amount .option {
+    border: 2px solid #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-inline: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.price {
+    padding: 0.5rem;
+    border-bottom: 2px solid #F6F6F6;
+}
+
+.price div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.price span {
+    font-weight: bolder;
+    margin-right: 1rem;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectedMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F6F6F6;
+    background: #EEEEEE;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    padding-block: 1rem;
+}
+
+.selectedMenu img {
+    margin-bottom: 0.5rem;
+}
+
+.selectedMenu p {
+    text-align: center;
+    width: 80%;
+}
+
+.selectMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectMenu img {
+    margin-bottom: 0.5rem;
+}
+
+.selectMenu p {
+    text-align: center;
+    width: 80%;
+}
+
+.line {
+    width: 2px;
+    height: 7rem;
+    margin-inline: 0.5rem;
+    background: #F6F6F6;
+}
+
+
+.checkout {
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-inline: 1rem;
+    cursor: pointer;
+}
+
+.checkout img {
+    width: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 3rem;
+}
+
+.mainContainer {
+    display: flex;
+    margin-top: 4rem;
+    margin-inline: 5rem;
+}
+
+.photoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photoContainer img {
+    width: 32%;
+}
+
+.map {
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+    margin-inline: 5rem;
+}
+
+.itemDiv {
+    margin-block: 3rem;
+}
+
+.itemContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.itemCard {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    box-shadow:
+        0 4px 16px rgba(0, 0, 0, 0.1),
+        0 -4px 16px rgba(0, 0, 0, 0.1),
+        4px 0 16px rgba(0, 0, 0, 0.1),
+        -4px 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.itemCard .item {
+    width: 40%;
+}
+
+.cardDesc {
+    width: 60%;
+}
+
+.cardDesc h3 {
+    font-weight: bolder;
+
+}
+
+.cardDesc p {
+    margin-block: 1rem;
+}
+
+.cardPlus {
+    position: absolute;
+    right: 0;
+    padding: 1rem 1rem 0.5rem 1rem;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 40px 0 20px 0;
+}
+
+.cardPlus img {
+    width: 90%;
+    cursor: pointer;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    margin-inline: 5rem;
+    margin-block: 3rem;
+    padding: 0;
+
+    box-shadow:
+        0 4px 16px rgba(0, 0, 0, 0.1),
+        0 -4px 16px rgba(0, 0, 0, 0.1),
+        4px 0 16px rgba(0, 0, 0, 0.1),
+        -4px 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.information h2 {
+    margin-bottom: 1rem;
+}
+
+.information img {
+    margin-right: 1rem;
+}
+
+.information p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 33.5%;
+    padding-inline: 4rem;
+}
+
+.infoContainer h2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.infoContainerBlack h2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.infoContainerBlack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 33%;
+    background: #000;
+    color: #fff;
+    height: 100%;
+    padding-block: 6rem;
+    padding-inline: 6rem;
+}
+
+.infoContainer span {
+    font-weight: bolder;
+}
+
+.infoContainerBlack span {
+    font-weight: bolder;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 5rem;
+    margin-block: 2rem;
+}
+
+.review {
+    position: relative;
+    background: #D9D9D9;
+    padding-block: 4rem;
+    margin-top: 4rem;
+}
+
+.reviewTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5rem;
+}
+
+.reviewTop img {
+    margin-left: 1rem;
+}
+
+.reviewCardTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ratingCard {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.topInside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.starTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.starTop p {
+    display: flex;
+    align-items: center;
+}
+
+.starTop img {
+    margin-right: 1rem;
+}
+
+.topInside img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.topInside span {
+    color: #FC8A06;
+}
+
+.reviewCard {
+    margin-left: 1rem;
+    width: 95%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.cardLine {
+    width: 2px;
+    height: 3rem;
+    margin-inline: 0.5rem;
+    background: #FC8A06;
+}
+
+.contentCard {
+    margin-top: 2rem;
+}
+
+.popularContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popularRestaurant {
+    padding-inline: 5rem;
+    margin-block: 6rem;
+}
+
+.popularRestaurant p {
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+}
+
+
+.popularContainer img {
+    width: 13.2rem;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+    .banner {
+        margin-inline: 1rem;
+        flex-direction: column-reverse;
+        height: 34rem;
+        padding-bottom: 3rem;
+    }
+
+    .bannerRight .burger {
+        top: 1rem;
+        width: 20rem;
+        left: -10rem;
+    }
+
+    .bannerRight .rating {
+        top: 10rem;
+        z-index: 100;
+        width: 5rem;
+        left: -9rem;
+    }
+
+    .bannerInfo {
+        flex-direction: column;
+    }
+
+    .bannerInfo p {
+        margin-top: 1rem;
+        width: 18rem;
+    }
+
+    .bannerInfo img {
+        margin-right: 1rem;
+    }
+
+    .bannerClock {
+        display: none;
+    }
+
+    .bannerLeft {
+        margin-right: 2rem;
+        width: 90%;
+    }
+
+    .bannerLeft h1 {
+        font-size: 1.6rem;
+    }
+
+    .popularRestaurant {
+        padding-inline: 1rem;
+        margin-block: 3rem;
+    }
+
+    .popularContainer {
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .popularContainer img {
+        margin-inline: 1rem;
+        width: 60%;
+    }
+
+    .searchBar {
+        display: none;
+    }
+
+    .photoContainer {
+        display: none;
+    }
+
+    .itemContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .itemCard {
+        width: 100%;
+        height: 12rem;
+    }
+
+    .itemDiv {
+        margin-top: 0;
+    }
+
+    .itemDiv h1 {
+        font-size: 1.5rem;
+    }
+
+    .mainContainer {
+        margin-inline: 1rem;
+        margin-top: 0;
+    }
+
+    .cardDesc {
+        font-size: 0.7rem;
+    }
+
+    .information {
+        display: none;
+    }
+
+    .map {
+        margin-inline: 1rem;
+        margin-top: 1rem;
+    }
+
+    .cardContainer {
+        overflow-x: scroll;
+        margin-left: 0rem;
+        width: 96%;
+
+    }
+
+    .card {
+        width: 25rem;
+        margin-left: 6%;
+    }
+
+    .reviewCard {
+        width: 100%;
+        height: 10rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        margin-right: 1rem;
+    }
+
+    .reviewCardTop {
+        width: 21rem;
+    }
+
+    .topInside .top p {
+        font-size: 0.8rem;
+    }
+
+    .reviewTop {
+        padding-inline: 1rem;
+    }
+
+    .reviewTop h1 {
+        font-size: 1.3rem;
+    }
+
+    .starTop p {
+        font-size: 0.6rem;
+    }
+
+    .starTop img {
+        margin-right: 0.2rem;
+    }
+
+    .contentCard {
+        margin-top: 1rem;
+    }
+
+    .arrowControl {
+        position: absolute;
+        bottom: 1rem;
+        left: 55%;
+        transform: translate(-50%);
+    }
+
+    .arrowControl img {
+        width: 25%;
+    }
+
+    .ratingCard {
+        top: -5rem;
+        left: 20.5rem;
+        width: 20%;
+    }
+
+    .cart {
+        position: absolute;
+        top: 10%;
+        background: #fff;
+        z-index: 200;
+        border-radius: 10px;
+        padding-bottom: 1rem;
+        left: 33%;
+        transform: translate(-50%);
+    }
+
+    .amount .pay {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .reviewCardTop {
+        width: 19.5rem;
+    }
+}
