@@ -16,7 +16,7 @@ import { getUserDetailsById } from '../routes'
 export default function Navbar({ viewCart, setViewCart, currentAddress }) {
   const navigate = useNavigate();
   const location = useLocation();
-  const [value, setValue] = useState('1');
+  const [value, setValue] = useState('/product'.includes(location.pathname)?'4':'1');
   const [user, setUser] = useState(null);
   const [openMenu, setOpenMenu] = useState(false);
 
