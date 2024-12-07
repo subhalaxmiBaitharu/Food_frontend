@@ -40,7 +40,7 @@ function App() {
 
   const loadAddressFromStorage = () => {
     const storedAddress = localStorage.getItem('deliveryAddress');
-    return storedAddress || null;
+    return storedAddress || "";
   };
   const [deliveryAddress, setDeliveryAddress] = useState(loadAddressFromStorage);
 
