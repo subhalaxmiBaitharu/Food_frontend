@@ -38,7 +38,7 @@ export default function Address({ deliveryAddress, setDeliveryAddress }) {
 
   useEffect(() => {
     const defaultAddress = addressList.find((addr) => addr.default)?.fullAddress;
-    setDeliveryAddress(defaultAddress || null);
+    setDeliveryAddress(defaultAddress || "");
   }, [addressList, setDeliveryAddress]);
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export default function Address({ deliveryAddress, setDeliveryAddress }) {
       setCurrentAddress(address);
     } else {
       setFormFields({ state: "", city: "", pincode: "", phone: "", address: "" });
-      setCurrentAddress(null);
+      setCurrentAddress("");
     }
     setModalVisible(true);
   };
