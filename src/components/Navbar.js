@@ -11,6 +11,7 @@ import { Box, Tab } from '@mui/material'
 import { TabContext, TabList } from '@mui/lab'
 import { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import { getUserDetailsById } from '../routes'
 
 export default function Navbar({ viewCart, setViewCart, currentAddress }) {
   const navigate = useNavigate();
@@ -18,6 +19,18 @@ export default function Navbar({ viewCart, setViewCart, currentAddress }) {
   const [value, setValue] = useState('1');
   const [user, setUser] = useState(null);
   const [openMenu, setOpenMenu] = useState(false);
+
+    useEffect(() => {
+    const userId = localStorage.getItem("userId")
+    if (userId) {
+      getUserDetailsById(userId)
+        .then((data) => {
+          console.group("data",data.user)
+          const userDetails = localStorage.setItem("userDetails");
+        })
+        .catch((error) => console.error("Error fetching user details:", error));
+    }
+  }, []);
 
   useEffect(() => {
     const userDetails = localStorage.getItem("userDetails");
